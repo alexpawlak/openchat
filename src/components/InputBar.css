@@ -1,0 +1,44 @@
+.input-bar {
+  width: 100%;
+  max-width: 680px;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 1rem;
+}
+.chat-input {
+  flex: 1 1 0;
+  padding: 0.8rem 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  outline: none;
+}
+.mic-btn, .send-btn {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.mic-btn {
+  background: #e2e8f0;
+  color: #2563eb;
+  margin-right: 0.2rem;
+}
+.mic-btn:hover {
+  background: #cbd5e1;
+}
+.send-btn:hover {
+  background: #1e40af;
+}
+.llm-selector {
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  font-size: 1rem;
+  color: #2d3748;
+}
