@@ -1,2 +1,0 @@
-# openchat
-Chat app
