@@ -5,12 +5,18 @@
 - [x] Add LLM model selection UX to docs
 - [ ] Draft detailed user stories and epics
 - [ ] Create UI wireframes (in code or design tool)
-- [ ] Implement sidebar navigation and chat history
-- [ ] Build main chat interface with prompt and input
-- [ ] Integrate free LLM APIs (Hugging Face, OpenRouter, etc.)
-- [ ] Add language selector (English/French)
-- [ ] Ensure accessibility (WCAG AA, keyboard, screen reader)
-- [ ] Test mobile responsiveness
+- [x] Implement sidebar navigation (no title/header)
+- [x] Implement chat history with restore
+- [x] Build main chat interface with animated message entry
+- [x] Integrate free LLM APIs (Hugging Face, OpenRouter, etc.)
+- [x] Add language selector (English/French)
+- [x] Ensure accessibility (WCAG AA, keyboard, screen reader)
+- [x] Test mobile responsiveness
+- [x] Add settings modal for API key
+- [x] Remove microphone/voice input feature
+- [x] Remove '+' from New Chat button
+- [x] Push project to GitHub and document workflow
+- [x] Update all docs to reflect new features and UI
 - [ ] Write unit tests (80%+ coverage)
 - [ ] Set up CI for linting, formatting, and tests
 - [ ] Document all new components and endpoints
